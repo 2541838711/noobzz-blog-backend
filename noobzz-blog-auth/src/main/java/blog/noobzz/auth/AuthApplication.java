@@ -1,0 +1,17 @@
+package blog.noobzz.auth;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+/**
+ * @author: ZZJ
+ * @date: 2023/05/30
+ * @desc:
+ */
+@SpringBootApplication
+public class AuthApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(AuthApplication.class,args);
+    }
+}
